@@ -3,7 +3,8 @@ from setuptools import setup, find_packages
 setup(
     name='unlimiformer',
     version='0.1.0',
-    packages=find_packages(),
+    package_dir={'': 'src'},  # This line tells setuptools to look for packages in the 'src' folder
+    packages=find_packages(where='src'),
     install_requires=[
         "faiss-cpu",
         "faiss-gpu",
