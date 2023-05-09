@@ -5,6 +5,7 @@ setup(
     version='0.1.0',
     package_dir={'': 'src'},  # This line tells setuptools to look for packages in the 'src' folder
     packages=find_packages(where='src'),
+    py_modules=['unlimiformer'],
     url='https://github.com/enesgrahovac/unlimiformer',
     install_requires=[
         "faiss-cpu",
