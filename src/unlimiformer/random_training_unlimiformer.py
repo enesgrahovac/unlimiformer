@@ -3,7 +3,7 @@ import numpy as np
 import torch
 from torch import nn
 from enum import Enum, auto
-from unlimiformer import Unlimiformer, ModelType, UnlimiformerBART, UnlimiformerT5, UnlimiformerLED
+from .unlimiformer import Unlimiformer, ModelType, UnlimiformerBART, UnlimiformerT5, UnlimiformerLED
 from transformers import BartModel, BartForConditionalGeneration, \
     T5Model, T5ForConditionalGeneration, \
     LEDModel, LEDForConditionalGeneration, \
