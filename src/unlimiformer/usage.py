@@ -1,5 +1,5 @@
 from .unlimiformer import Unlimiformer
-from random_training_unlimiformer import RandomTrainingUnlimiformer
+from .random_training_unlimiformer import RandomTrainingUnlimiformer
 
 from dataclasses import dataclass, field
 from typing import List, Optional
