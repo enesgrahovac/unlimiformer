@@ -10,7 +10,8 @@ setup(
     install_requires=[
         "faiss-cpu",
         "faiss-gpu",
-        "transformers"
+        "transformers",
+        "datasets"
     ],
     classifiers=[
         'Development Status :: 3 - Alpha',
